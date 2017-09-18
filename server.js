@@ -4,7 +4,7 @@ var fs = require('fs');
 var server = http.createServer();
 var app = express();
 var twilio = require('twilio');
-var client = twilio('AC6d3a142f22da458838816fe726fe3a57', '45dfd133e5d982b8c9abe9f4ab237704');
+var client = twilio(someAPIKEY, someTOKEN);
 
 
 
